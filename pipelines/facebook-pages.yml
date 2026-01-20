@@ -1,8 +1,7 @@
 version: pipelines/v0.1
-label: Facebook Pages
+label: Facebook Pages Connection Test
 timeout: 0
 max_retries: 0
 data_components:
 - tap-facebook-pages
 - Warehouse
-- dbt
