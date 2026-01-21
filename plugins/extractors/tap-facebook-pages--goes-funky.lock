@@ -19,12 +19,8 @@
   "selected_streams": [
     "page",
     "posts",
-    "post_insight_engagement",
-    "post_insight_impressions",
-    "post_insight_reactions",
-    "page_insight_engagement",
-    "page_insight_impressions",
-    "page_insight_consumptions"
+    "post_insight",
+    "page_insight"
   ],
   "settings": [
     {
