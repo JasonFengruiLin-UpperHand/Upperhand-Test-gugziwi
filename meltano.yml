@@ -10,6 +10,16 @@ plugins:
   - name: tap-facebook-pages
     variant: goes-funky
     pip_url: git+https://github.com/goes-funky/tap-facebook-pages.git
+    config:
+      select:
+        - page
+        - posts
+        - post_insight_engagement
+        - post_insight_impressions
+        - post_insight_reactions
+        - page_insight_engagement
+        - page_insight_impressions
+        - page_insight_consumptions
   loaders:
   - name: target-postgres
     variant: matatika
