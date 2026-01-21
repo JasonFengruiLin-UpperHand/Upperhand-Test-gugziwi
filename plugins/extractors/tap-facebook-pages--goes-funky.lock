@@ -16,6 +16,12 @@
     "catalog",
     "discover"
   ],
+  "selected_streams": [
+    "page",
+    "page_insights",
+    "post_insights",
+    "posts"
+  ],
   "settings": [
     {
       "name": "page_ids",
